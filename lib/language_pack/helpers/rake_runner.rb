@@ -94,7 +94,7 @@ class LanguagePack::Helpers::RakeRunner
 
     out = load_rake_tasks(options)
 
-    if false or cannot_load_rakefile?
+    if cannot_load_rakefile?
       msg =  "Could not detect rake tasks\n"
       msg << "ensure you can run `$ bundle exec rake -P` against your app\n"
       msg << "and using the production group of your Gemfile.\n"

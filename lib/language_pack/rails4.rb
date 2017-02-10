@@ -75,7 +75,7 @@ WARNING
         end
 
         precompile = rake.task("assets:precompile")
-        return true unless precompile.is_defined?
+        #return true unless precompile.is_defined?
 
         topic("Preparing app for Rails asset pipeline")
 
